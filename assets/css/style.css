@@ -1,0 +1,104 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+}
+body {
+  
+}
+a:hover { text-decoration: none }
+section.section-padding {
+    padding: 60px 0px;
+}
+.col-md-4 {
+    margin-bottom: 30px;
+}
+.col-md-4 h2 {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.col-md-4 h2:before {
+    position:  absolute;
+    width: 70px;
+    height:  8px;
+    content:  "";
+    background-color: #eeeced;
+    border-radius:  5px;
+    bottom: -12px;
+}
+
+.col-md-4 h2:after {
+    position:  absolute;
+    width:  55px;
+    height:  8px;
+    content:  "";
+    background-color:  #14adf3;
+    left: 0;
+    border-radius: 5px;
+    bottom: -12px;
+}
+.col-md-4 p {
+    color: #a5a5a5;
+    line-height: 25px;
+}
+.singale-staff-item {
+    margin-right: 30px;
+}
+.singale-staff-item img {
+    min-width: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+.staff-meta {
+    margin-top:  25px;
+}
+.staff-meta p {
+    color: #b3b3b3;
+}
+p.lest {
+    line-height: 25px;
+}
+.staff-list .owl-nav div {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    background-color: #f3f3f3;
+    margin-left: 10px;
+}
+.staff-list .owl-nav div:hover{
+    color: #fff;
+    background-color: #14adf3;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
